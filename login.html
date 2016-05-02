@@ -1,0 +1,177 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+		<meta charset="UTF-8">
+		<title>Appointment Maker</title>
+         <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker-standalone.css">
+ -->    	
+   <!--  <link rel="stylesheet" href="css/datepicker.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/form.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <!-- // <script src="js/modernizr.custom.js"></script> -->
+ 	</head> 
+ 	<body>
+        <div class="app-log-div">
+            <div class="app-div">
+                <h1 class="app-login-heading js-app-login-heading">Login to Careclues</h1>
+                <h1 class="app-login-heading app-login-heading-reset">To reset password</h1>
+                <h1 class="app-login-heading app-login-heading-verify">Verify OTP</h1>
+                <h1 class="app-login-heading app-choose-psw">Choose password</h1>
+                <h2 class="app-login-heading1">please enter OTP sent to your mobile no.for varification</h2>
+                <div class="otp-number">
+                    <!-- <form class="otp-form">    -->      
+                        <span class="otp-input"><input type="text" maxlength="1" class="in" id="otp1" pattern="\d+">
+                        <input type="text" maxlength="1" class="in" id="otp2" pattern="\d+">
+                        <input type="text" maxlength="1" class="in" id="otp3" pattern="\d+">
+                        <input type="text" maxlength="1" class="in" id="otp4" pattern="\d+"></span>
+                        <button type="submit" class="login-btn otp-pending" id="register" value="PENDING" disabled="disabled" />PENDING</button>  
+                    <!-- </form>  -->    
+                </div>
+                <div class="app-mob-email-head login-hr">
+                    <span class="app-email-head js-app-email-head">Use Email Address</span><span class="app-mob-head">Use Mobile Number</span>
+                </div>
+                <div class="radio-btn">
+                    <form>
+                        <input type="radio" name="gender" value="male" id="radio-1" checked><label class="lb-mrg-btm" for="radio-1"><span>send OTP to my mobile number</span></label><br>
+                        <input type="radio" name="gender" value="female" id="radio-2"><label for="radio-2"><span>send password reset link to my email address</span></label>
+                    </form>    
+                </div>  
+                <form class="log-form">
+                    <div class="form-group js-email-div">
+                            <input type="email" class="form-control log-in-placeholder emial-mrg-top js-email-input" id="email1" placeholder="Email address" required/>
+                    </div>
+                    <div class="phone-no-div emial-mrg-top form-group">
+                        <span class="mobile-no-start-code login-phone-no-code"><span>+91</span></span><input type="text" required="" placeholder="Mobile number" id="phone-number" class="form-control log-in-placeholder" pattern="[789][0-9]{9}">
+                    </div>
+                    <div class="form-group js-pas-div">
+                        <input type="password" class="form-control log-in-placeholder" id="pwd" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,12}" required/>
+                    </div>
+                    <div class="login-btn-div">
+                       <span><a class="forget-psw1 color-a js-forget-psw1">Forgot password?</a></span>
+                        <button type="submit" class="login-btn login-btn-float js-login">LOGIN</button>
+                    </div>  
+                </form>
+                 <button type="submit" class="login-btn login-btn-float js-send">SEND</button>
+                 <a class="forget-psw1 color-a otp-resend">Not received, resend OTP</a>
+            </div>   
+            <div>
+                <form class="choose-psd-form">
+                    <input type="password" class="form-control log-in-placeholder1 js-choose-psw " id="pwd1" placeholder="New password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,12}" required/>
+                    <span class="psd-limit"></span>
+                    <input type="password" class="form-control log-in-placeholder1 js-choose-psw psw-mar-top" id="pwd2" placeholder="Conform password" required/> 
+                    <button type="submit" class="login-btn login-btn-float js-done">DONE</button>
+                </form>    
+            </div>     
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript">
+         $(".app-email-head").click(function() { 
+            $(".js-email-div").show();
+            $(".phone-no-div").hide();
+            $(".app-email-head").addClass("js-app-email-head");
+            $(".app-mob-head").removeClass("js-app-mob-head");
+            });
+            $(".app-mob-head").click(function() { 
+            $(".js-email-div").hide();
+            $(".phone-no-div").show();
+            $(".app-email-head").removeClass("js-app-email-head");
+            $(".app-mob-head").addClass("js-app-mob-head");
+            });
+            $(".js-forget-psw1").click(function() { 
+            $(".app-mob-email-head ").hide();
+            $(".js-email-div ").hide();
+            $(".js-pas-div ").hide();
+            $(".js-app-login-heading ").hide();
+            $(".login-btn-div").hide();
+            $(".radio-btn").show();
+            $(".phone-no-div").show();
+            $(".app-login-heading-reset").show();
+            $(".js-send").show();
+            });
+            $("#radio-1").click(function() {
+               if($("#radio-1").prop('checked')===true) {
+                $(".phone-no-div").show();
+                $(".js-email-div").hide();
+               }
+            });
+            $("#radio-2").click(function() {
+               if($("#radio-2").prop('checked')===true) {
+                $(".phone-no-div").hide();
+                $(".js-email-div").show();
+               }
+            });
+            $(".js-send").click(function() {
+                $(".app-login-heading-reset").hide();
+                $(".radio-btn").hide();
+                $(".log-form").hide();
+                $(".js-send").hide();
+                $(".app-login-heading1").show();
+                $(".otp-resend").show();
+                $(".app-login-heading-verify").show();
+                $(".otp-number").show();
+            });
+           $('input').keyup(function(){
+        if($(this).val().length==$(this).attr("maxlength")){
+            $(this).next().focus();
+        }
+    });
+           (function() {
+    $('.in').keyup(function() {
+
+        var empty = false;
+        var otpVal= "";
+        $('.in').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+            otpVal += parseInt($(this).val());
+        });
+
+        if (empty) {
+            $('#register').attr('disabled', 'disabled');
+            $("#register").css("background-color", "#cbcbcb");
+        } else {
+            $('#register').removeAttr('disabled');
+            $("#register").css("background-color", "#2bca2f");
+        }
+        if(otpVal == 1234)
+        {
+            //alert('otp');
+            $('#register').text("VERIFIED").addClass('verifiedSubmit');
+        }
+    });
+
+})()
+        $("#register").click(function() {
+            $(".app-login-heading1").hide();
+            $(".otp-resend").hide();
+            $(".app-login-heading-verify").hide();
+            $(".otp-number").hide();
+            $(".choose-psd-form").show();
+             $(".app-choose-psw").show();  
+        });
+         $(".js-done").click(function() {
+             if($('#pwd1').val() != $('#pwd2').val()) {
+            alert("Password and Confirm Password don't match");
+            // Prevent form submission
+            event.preventDefault();
+        }
+        
+         });
+         $('#pwd1').keypress(function(){
+         if($(this).val().length < 6 || $(this).val().length > 12){
+            $(".psd-limit").html("6 to 12 characters");
+            }
+            else{
+                $(".psd-limit").html("");
+            }
+        });
+
+
+        </script>
+    </body>
+</html>
