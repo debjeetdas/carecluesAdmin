@@ -194,28 +194,31 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
   font-size: 24px;
   font-family: "OpenSans-SemiBold";
   color: #343434;
-}
-.clinic-hr{
   border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
 }
+
 .upload-img {
     float: left;
     height: 100px;
     width: 10%;
     text-align: center;
+    margin-top: 8px;
 }
 .clinic-detail {
     float: left;
-    margin-left: 10%;
-    width: 80%;
+    margin: 0 auto;
+    padding: 0 15% 0 7%;
+    width: 90%;
 }
 .form-clinic-details{
   border: 1px solid #ccc;
   height: 38px;
+  border-radius: 5px;
 }
 
 .clinic-name{
-  margin-left: 20px;;
+  /*margin-left: 20px;;*/
 }
 #Address {
     margin-left: 7%;
@@ -228,13 +231,13 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
 }
 
 /*table list*/
- .pl-table {
+ .cl-table {
     display:table;
     width:100%;
     height:100%;
     padding-top: 10px;
 }
-.pl-cell {
+.cl-cell,.cl-cell1 {
     display:table-cell;
     padding-bottom: 20px;
 }
@@ -245,7 +248,7 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
 /*/table list end*/
 
 /*phone number div*/
-.mobile-no-start-code.login-phone-no-code > span {
+.cl-mobile-no-start-code.cl-login-phone-no-code > span {
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-top: 1px solid #ccc;
@@ -272,5 +275,69 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
   width: 80%;
 }
 .nm-width{
-  width: 80%;
+  width: 100%;
+}
+.cl-detail-div{
+  display: flex;
+  margin-top: 30px;
+}
+.contact-width{
+  width:33.33%;
+}
+.add-no{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
+  color: #673090;
+}
+.contact-text-al{
+  text-align: right;
+}
+.cl-btn-default{
+  width: 100%;
+  height: 38px;
+  margin-top: -4px;
+}
+.save-btn{
+  font-size: 14px;
+  font-family: "OpenSans-SemiBold";
+  color: #fff;
+  background-color: #d41c5c;
+  border: none;
+}
+.save-btn-pad{
+  padding:10px 30px;
+}
+.savemore-btn-pad{
+   padding:10px 20px;
+}
+.savemore-span{
+  float: right;
+}
+.add{
+  color: #673090;
+  font-size: 27px;
+  line-height: 1;
+}
+.Type{
+  float: left;
+}
+.dw-caret{
+  float: right;
+  margin-top: 9px;
+}
+.cl-form-width{
+  width: 31%;
+}
+.back-btn{
+  font-family: "OpenSans-Regular";
+  font-size: 18px;
+  color: #545454;
+  cursor: pointer;
+}
+.cl-whole-div {
+    margin-top: 130px;
+}
+.back-btn {
+    padding-left: 40px;
 }
