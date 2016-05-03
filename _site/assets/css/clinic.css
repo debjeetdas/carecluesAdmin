@@ -1,0 +1,343 @@
+@font-face {
+        font-family: "OpenSans-Bold";
+        src: url(../fonts/ttf/OpenSans-Bold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-BoldItalic";
+        src: url(../fonts/ttf/OpenSans-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Light";
+        src: url(../fonts/ttf/OpenSans-Light.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-LightItalic";
+        src: url(../fonts/ttf/OpenSans-LightItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Regular";
+        src: url(../fonts/ttf/OpenSans-Regular.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Italic";
+        src: url(../fonts/ttf/OpenSans-Italic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-SemiBold";
+        src: url(../fonts/ttf/OpenSans-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-SemiBoldItalic";
+        src: url(../fonts/ttf/OpenSans-SemiBoldItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-ExtraBold";
+        src: url(../fonts/ttf/OpenSans-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-ExtraBoldItalic";
+        src: url(../fonts/ttf/OpenSans-ExtraBoldItalic.ttf);
+    }
+    @font-face {
+  font-family: "AvenirNext-Bold";
+  src: url(../fonts/AvenirNext-Bold.ttf);
+}
+
+@font-face {
+  font-family: "AvenirNext-Regular";
+src: url(../fonts/AvenirNext-Regular.ttf);
+}
+
+@font-face {
+  font-family: "omnes-medium-webfont";
+src: url(../fonts/omnes-medium-webfont.ttf);
+}
+
+@font-face {
+  font-family: "omnes-Regular-webfont";
+src: url(../fonts/omnes-Regular-webfont.ttf);
+}
+
+@font-face {
+  font-family:"Oxygen-Bold";
+src: url(../fonts/Oxygen-Bold.ttf);
+}
+
+@font-face {
+  font-family:"Oxygen-Regular";
+src: url(../fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Oxygen-Light";
+src: url(../fonts/Oxygen-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-BlackItalic";
+src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-BoldItalic";
+src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Bold";
+src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Italic";
+src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-LightItalic";
+src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Light";
+src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Medium";
+src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-MediumItalic";
+src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Regular";
+src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Thin";
+src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-ThinItalic";
+src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+    src: url(../fonts/ttf/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+    src: url(../fonts/ttf/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+    src: url(../fonts/ttf/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-LightItalic";
+    src: url(../fonts/ttf/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+    src: url(../fonts/ttf/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+    src: url(../fonts/ttf/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+    src: url(../fonts/ttf/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBoldItalic";
+    src: url(../fonts/ttf/OpenSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+    src: url(../fonts/ttf/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-ExtraBoldItalic";
+    src: url(../fonts/ttf/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.clinic-head{
+  font-size: 24px;
+  font-family: "OpenSans-SemiBold";
+  color: #343434;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.upload-img {
+    float: left;
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    margin-top: 8px;
+}
+.clinic-detail {
+    float: left;
+    margin: 0 auto;
+    padding: 0 15% 0 7%;
+    width: 90%;
+}
+.form-clinic-details{
+  border: 1px solid #ccc;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.clinic-name{
+  /*margin-left: 20px;;*/
+}
+#Address {
+    margin-left: 7%;
+}
+.upload-text{
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
+  color: #666666;
+  text-align: center;
+}
+
+/*table list*/
+ .cl-table {
+    display:table;
+    width:100%;
+    height:100%;
+    padding-top: 10px;
+}
+.cl-cell,.cl-cell1 {
+    display:table-cell;
+    padding-bottom: 20px;
+}
+.table-row {
+    display:table-row;
+    width: inherit;
+}
+/*/table list end*/
+
+/*phone number div*/
+.cl-mobile-no-start-code.cl-login-phone-no-code > span {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+.cl-log-in-placeholder{
+  height:38px;
+  border: 1px solid #ccc;
+}
+/*phone number div ends */   
+
+.form-value{
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
+  color: #666;
+}
+.add-photo{
+  width:100%;
+}
+.l-col{
+  width: 20%;
+}
+.r-col{
+  width: 80%;
+}
+.nm-width{
+  width: 100%;
+}
+.cl-detail-div{
+  display: flex;
+  margin-top: 30px;
+}
+.contact-width{
+  width:33.33%;
+}
+.add-no{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
+  color: #673090;
+}
+.contact-text-al{
+  text-align: right;
+}
+.cl-btn-default{
+  width: 100%;
+  height: 38px;
+  margin-top: -4px;
+}
+.save-btn{
+  font-size: 14px;
+  font-family: "OpenSans-SemiBold";
+  color: #fff;
+  background-color: #d41c5c;
+  border: none;
+}
+.save-btn-pad{
+  padding:10px 30px;
+}
+.savemore-btn-pad{
+   padding:10px 20px;
+}
+.savemore-span{
+  float: right;
+}
+.add{
+  color: #673090;
+  font-size: 27px;
+  line-height: 1;
+}
+.Type{
+  float: left;
+}
+.dw-caret{
+  float: right;
+  margin-top: 9px;
+}
+.cl-form-width{
+  width: 31%;
+}
+.back-btn{
+  font-family: "OpenSans-Regular";
+  font-size: 18px;
+  color: #545454;
+  cursor: pointer;
+}
+.cl-whole-div {
+    margin-top: 130px;
+}
+.back-btn {
+    padding-left: 40px;
+}

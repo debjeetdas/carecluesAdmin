@@ -428,9 +428,9 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
         border: medium none;
         width: 100%;
     }
-    .tablerow1,.tablerow2{
+    .tablerow1,.tablerow2,.tablerow3{
         display: table-row;
-        width: 50%;
+       /* width: 50%;*/
     }
     .cell {
         display: table-cell;
@@ -449,7 +449,7 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
     .table {
         margin: 24px 0;
     }
-    .marketing-background-cell-1 a {
+    .marketing-background-cell-1 a,.profile-name{
         color: #ffffff;
         font-family: "Omnes-Regular-webfont";
         font-size: 15px;
@@ -656,5 +656,90 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
 .alphabet .srchActive a{
     color: #fff;
 }
+.tablerow1{
+    float: left;
+}
+.tablerow3 {
+    float: right;
+}
+.caret.pl-caret{
+    margin-left: 18px;
+}
         /*search button ends*/
    /* patient list ends*/
+
+   
+/* Start : Patient-details.css */
+.careclues-list {
+    margin-top: 115px;
+}
+.clinic-head{
+  font-size: 24px;
+  font-family: "OpenSans-SemiBold";
+  color: #333;
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+.total-info {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 35px 0;
+}
+.doctor-info {
+    display: table-row;
+    width: 100%;
+}
+.float-left{
+    float: left;
+}
+.float-right,.p-icon-inner-content{
+    float: right;
+}
+.p-doc-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.p-icon-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.p-icon{
+    display: table-cell;
+    vertical-align: middle;
+    width: 65px;
+}
+.calender{
+    width: 80px;
+}
+.profile-img-doc{
+    width: 100%;
+}
+.profile-detail span{
+    color: #848484;
+    display: inline-block;
+}
+.vertical-bar{
+    background-color: #848484;
+    width: 1px;
+    height: 15px;
+    margin: 0 20px -3px;
+}
+.basic-details{
+    display: table;
+    width: 100%;
+}
+.basic-info-part{
+    display: table-cell;
+}
+.basic-info-p1{
+    width: 50%;
+}
+.basic-info-p2{
+    width: 30%;
+}
+.basic-info-p3{
+    width: 20%;
+}
+/* End : Patient-details.css */

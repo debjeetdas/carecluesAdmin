@@ -1,0 +1,67 @@
+{% include header.html %}
+<div class="cl-whole-div">            
+ 	<h1 class="back-btn"><< Back</h1>
+ 		<div class="container">
+ 			<h1 class="clinic-head">Add New Clinic</h1>
+ 			<div class="cl-detail-div">
+		 			<div class="upload-img">
+		 				<div>
+		 				    <img src="/assets/img/add-photo.png" class="add-photo">
+		 				</div>
+		 				<h1 class="upload-text">Add Photo</h1>
+		 			</div>
+		 			<div class="clinic-detail">
+		 				<div class='cl-table'>
+								
+									<div class='row table-row'>
+										<div class='cl-cell  l-col'><span class="form-value">clinic name:</span></div>
+										<div class='cl-cell  r-col'><input type="text" class="form-clinic-details clinic-name nm-width" required/></div>
+									</div>
+									<div class='row table-row'>
+										<div class='cl-cell l-col'><span class="form-value">Address:</span></div>
+										<div class='cl-cell r-col'><input type="text" class="form-clinic-details clinic-name nm-width" required/></div>
+									</div>
+									<div class='row table-row'>
+										<div class='cl-cell'><span class="form-value">City:</span></div>
+										<div class='cl-cell'><input type="text" class="form-clinic-details cl-form-width clinic-name" required/></div>
+									</div>
+									<div class='row table-row'>
+										<div class='cl-cell'><span class="form-value">postal code:</span></div>
+										<div class='cl-cell'><input type="text" class="form-clinic-details cl-form-width clinic-name" required/></div>
+									</div>
+
+									<div class='row table-row'>
+										<div class='cl-cell'><span class="form-value">Contact Number:</span></div>
+										<div class='cl-table'>
+											<div class='cl-cell phone-no contact-width'><span class="cl-mobile-no-start-code  cl-login-phone-no-code"><span class="clinic-name">+91</span></span><input type="text" required="" placeholder="" id="cl-phone-number" class="cl-log-in-placeholder" pattern="[789][0-9]{9}">
+
+											</div>
+											<div class='cl-cell contact-width'>
+												<div class="dropdown pl-dropdown">
+												    <button class="btn btn-default cl-btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="Type">Type</span>
+												    <span class="caret dw-caret"></span></button>
+												    <ul class="dropdown-menu">
+												      <li><a href="#">General enquiry</a></li>
+												      <li><a href="#">Emergency</a></li>
+												    </ul>
+			  									</div>
+											</div>
+											<div class='cl-cell contact-width contact-text-al'>
+											<span><button type="button" class="add">+</button></span><span class="add-no">Add more number</span>
+											</div>
+									</div>
+								</div>
+								<div class='row table-row'>
+										<div class='cl-cell'></div>											
+										<div class='cl-table'>
+											<span><button type="submit" class="login-btn save-btn save-btn-pad">SAVE</button></span>
+											<span class="savemore-span"><button type="submit" class="login-btn save-btn savemore-btn-pad">SAVE & ADD MORE</button></span>
+										</div>											
+									</div>
+						</div>
+						
+		 			</div>
+		 		</div>	
+ 		</div>
+</div>
+{% include footer.html %}

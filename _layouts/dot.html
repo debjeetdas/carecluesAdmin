@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="dobData">
+		<div class="dob-side active">
+			<span class="dob">DOB:</span>
+		</div>
+		<div class="scroll-select">
+			<span class="l-dot click-active"><img src="../assets/img/ellip.png"></span>
+			<span class="hor-sel"><img src="../assets/img/hor-scroll.png"></span>
+			<span class="r-dot"><img src="../assets/img/ellip.png"></span>
+		</div>
+		<div class="age-side">
+			<span class="age">AGE:</span>
+		</div>
+	</div>
+
+	<style>
+	.dob-side,.age-side{
+		float: left;
+		opacity: 0.50;
+	}
+	.active{
+		opacity: 1;
+	}
+	.dobData{
+		display: table;
+	}
+
+	.l-dot, .r-dot,.hor-sel {
+	    display: inline-block;
+	    vertical-align: middle;
+	    position: relative;
+	}
+	.l-dot, .r-dot{
+		z-index: 1;
+		display: none;
+	}
+	.click-active{
+		display: inline-block;
+	}
+	.hor-sel{
+		z-index: 0;
+		margin-top: -6px;
+	}
+	.l-dot{
+		margin-right: -15px;
+	}
+	.r-dot{
+		margin-left: -15px;	
+	}
+	.scroll-select{
+		display: table-cell;
+		vertical-align: middle;
+	}
+	</style>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.scroll-select').click(function(){
+			var $this = $(this).children('span.click-active');
+			if($this.hasClass('l-dot')){
+				$('.r-dot').addClass('click-active');
+				$this.removeClass('click-active');
+				$(this).siblings('div').removeClass('active');
+				$(this).siblings('.age-side').addClass('active');
+			}
+			if($this.hasClass('r-dot')){
+				$('.l-dot').addClass('click-active');
+				$this.removeClass('click-active');
+				$(this).siblings('div').removeClass('active');
+				$(this).siblings('.dob-side').addClass('active');
+			}			
+		});
+	});
+	</script>
+
+</body>
+</html>
+

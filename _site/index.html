@@ -5,7 +5,8 @@
 		<title>Careclues Admin</title>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/clinic.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/carecluesAdmin.css">
         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
  	</head> 
  	<body>
@@ -16,7 +17,7 @@
                 <div class="tablerow1">
                     <div class="cell marketing-background-cell">
                         <a href="/">
-                            <img class="marketing-background-logo" src="assets/img/Logo.png"/>
+                            <img class="marketing-background-logo" src="/assets/img/Logo.png"/>
                         </a>
                     </div>
                     <div class="cell marketing-background-cell-1">
@@ -36,34 +37,39 @@
                     </div>
                     <div class="cell marketing-background-cell-1">
                         <div class="dropdown pl-dropdown">
-						    <button class="btn btn-default pl-btn-default dropdown-toggle" type="button" data-toggle="dropdown">Ruby General hospital
-						    <span class="caret"></span></button>
-						    <ul class="dropdown-menu">
-						      <li><a href="#">Ruby General hospital2</a></li>
-						      <li><a href="#">Ruby General hospital3</a></li>
-						    </ul>
-							</div>
-                    </div>
-                    <div class="cell marketing-background-cell-1">
-                        <img src="">
-                    </div>
-                    <div class="cell marketing-background-cell-1">
-                        <img src="">
-                    </div>
-                    <div class="cell marketing-background-cell-1">
-                        <img src="">
+                            <button class="btn btn-default pl-btn-default dropdown-toggle" type="button" data-toggle="dropdown">Ruby General hospital
+                            <span class="caret pl-caret"></span></button>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Ruby General hospital2</a></li>
+                              <li><a href="#">Ruby General hospital3</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="tablerow3">
+                    <div class="cell marketing-background-cell-1">
+                        <img src="/assets/img/Noti.png">
+                    </div>
+                    <div class="cell marketing-background-cell-1">
+                        <img src="/assets/img/Settings.png">
+                    </div>
+                    <div class="cell marketing-background-cell-1">
+                        <h5 class="profile-name">Deb..</h5>
+                    </div>
+                    <div class="cell marketing-background-cell-1">                                        
+                        <img src="/assets/img/login-img.png">
+                    </div>
+                </div>                
             </div>
         </div>
-	</nav>
+    </nav>
 
             <div class="search-div">
                 <div class="search">
                       <span class="fa fa-search"></span>
                       <input placeholder="Search Patient by name or phonenumber" class="search-criteria">
                       <span class="login-span">or
-                      <button type="submit" class="login-btn mar-login-btn">ADD PATIENTS</button></span>
+                      <button type="submit" class="login-btn mar-login-btn" onclick="location.href='/patient_register'">ADD PATIENTS</button></span>
                 </div>
                 <ul class="alphabet">
                     <li class="srchActive"><a>A</a></li>
@@ -97,7 +103,7 @@
             </div>
             <div class="container profile-container">
             	<div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -132,7 +138,7 @@
                             </div>
                         </div>                      
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -167,7 +173,7 @@
                             </div>
                         </div>                      
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -202,7 +208,7 @@
                             </div>
                         </div>                      
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -237,7 +243,7 @@
                             </div>
                         </div>                      
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -272,7 +278,7 @@
                             </div>
                         </div>                      
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det" onclick="location.href='/patient_detail'">
                         <div class="row row-class">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="row row-pad-btm">
@@ -312,6 +318,6 @@
             
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <script src="/assets/js/custom.js"></script>
  	</body>
 </html> 	

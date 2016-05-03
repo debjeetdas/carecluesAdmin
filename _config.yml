@@ -1,0 +1,4 @@
+markdown: kramdown
+permalink: pretty
+posts:
+include: ["_pages"] 
