@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+		<meta charset="UTF-8">
+		<title>Appointment Maker</title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/clinic.css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+ 	</head> 
+ 	<body>
+ 		<div class="container">
+ 			<h1 class="clinic-head">Add New Clinic</h1>
+ 			<hr class="clinic-hr">
+ 			<div class="upload-img">
+ 				<div>
+ 				    <img src="img/add-photo.png" class="add-photo">
+ 				</div>
+ 				<h1 class="upload-text">Add Photo</h1>
+ 			</div>
+ 			<div class="clinic-detail">
+ 				<div class='pl-table'>
+						
+							<div class='row table-row'>
+								<div class='pl-cell  l-col'><span class="form-value">clinic name:</span></div>
+								<div class='pl-cell  r-col'><input type="text" class="form-clinic-details clinic-name nm-width" required/></div>
+							</div>
+							<div class='row table-row'>
+								<div class='pl-cell l-col'><span class="form-value">Address:</span></div>
+								<div class='pl-cell r-col'><input type="text" class="form-clinic-details clinic-name nm-width" required/></div>
+							</div>
+							<div class='row table-row'>
+								<div class='pl-cell'><span class="form-value">City:</span></div>
+								<div class='pl-cell'><input type="text" class="form-clinic-details clinic-name" required/></div>
+							</div>
+							<div class='row table-row'>
+								<div class='pl-cell'><span class="form-value">postal code:</span></div>
+								<div class='pl-cell'><input type="text" class="form-clinic-details clinic-name" required/></div>
+							</div>
+							<div class='row table-row'>
+								<div class='pl-cell'><span class="form-value">Contact Number:</span></div>
+								<div class='pl-cell phone-no'><span class="mobile-no-start-code  login-phone-no-code"><span class="clinic-name">+91</span></span><input type="text" required="" placeholder="" id="phone-number" class="cl-log-in-placeholder" pattern="[789][0-9]{9}">
+
+								</div>
+								<div class='pl-cell'>
+									<div class="dropdown pl-dropdown">
+									    <button class="btn btn-default pl-btn-default dropdown-toggle" type="button" data-toggle="dropdown">Type
+									    <span class="caret"></span></button>
+									    <ul class="dropdown-menu">
+									      <li><a href="#">General enquiry</a></li>
+									      <li><a href="#">Emergency</a></li>
+									    </ul>
+  									</div>
+								</div>
+							</div>
+						
+				</div>
+ 			</div>
+ 		</div>
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 	</body>
+</html> 	
