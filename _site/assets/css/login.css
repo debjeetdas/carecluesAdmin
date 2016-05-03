@@ -1,0 +1,660 @@
+    @font-face {
+        font-family: "OpenSans-Bold";
+        src: url(../fonts/ttf/OpenSans-Bold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-BoldItalic";
+        src: url(../fonts/ttf/OpenSans-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Light";
+        src: url(../fonts/ttf/OpenSans-Light.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-LightItalic";
+        src: url(../fonts/ttf/OpenSans-LightItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Regular";
+        src: url(../fonts/ttf/OpenSans-Regular.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-Italic";
+        src: url(../fonts/ttf/OpenSans-Italic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-SemiBold";
+        src: url(../fonts/ttf/OpenSans-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-SemiBoldItalic";
+        src: url(../fonts/ttf/OpenSans-SemiBoldItalic.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-ExtraBold";
+        src: url(../fonts/ttf/OpenSans-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: "OpenSans-ExtraBoldItalic";
+        src: url(../fonts/ttf/OpenSans-ExtraBoldItalic.ttf);
+    }
+    @font-face {
+  font-family: "AvenirNext-Bold";
+  src: url(../fonts/AvenirNext-Bold.ttf);
+}
+
+@font-face {
+  font-family: "AvenirNext-Regular";
+src: url(../fonts/AvenirNext-Regular.ttf);
+}
+
+@font-face {
+  font-family: "omnes-medium-webfont";
+src: url(../fonts/omnes-medium-webfont.ttf);
+}
+
+@font-face {
+  font-family: "omnes-Regular-webfont";
+src: url(../fonts/omnes-Regular-webfont.ttf);
+}
+
+@font-face {
+  font-family:"Oxygen-Bold";
+src: url(../fonts/Oxygen-Bold.ttf);
+}
+
+@font-face {
+  font-family:"Oxygen-Regular";
+src: url(../fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Oxygen-Light";
+src: url(../fonts/Oxygen-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-BlackItalic";
+src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-BoldItalic";
+src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Bold";
+src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Italic";
+src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-LightItalic";
+src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Light";
+src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Medium";
+src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-MediumItalic";
+src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Regular";
+src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-Thin";
+src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family:"Roboto-ThinItalic";
+src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+    src: url(../fonts/ttf/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+    src: url(../fonts/ttf/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+    src: url(../fonts/ttf/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-LightItalic";
+    src: url(../fonts/ttf/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+    src: url(../fonts/ttf/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+    src: url(../fonts/ttf/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+    src: url(../fonts/ttf/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBoldItalic";
+    src: url(../fonts/ttf/OpenSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+    src: url(../fonts/ttf/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans-ExtraBoldItalic";
+    src: url(../fonts/ttf/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /*.app-div {
+        display: table;
+        margin: 55px auto 77px;
+        width: 320px;
+    }*/
+    .app-log-div {
+    background-color: #eeeeee;
+    margin: 100px auto 0;
+    width: 420px;
+    display: table;
+    padding: 20px;
+    }
+    .forget-psw1{
+    font-family: "OpenSans-Light";
+    font-size: 14px;
+    }
+    .login-btn-float{
+        float: right;
+    }
+    .log-in-placeholder{
+        font-family: "OpenSans-Light";
+        font-size: 16px;
+        color:#333;
+        height: 40px;
+        margin-bottom: 21px;
+    }
+    .log-in-placeholder1{
+        font-family: "OpenSans-Light";
+        font-size: 16px;
+        color:#333;
+        height: 40px;
+    }
+    .login-btn{
+    background-color: #d41c5c;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+    padding: 6px 20px;
+    }
+    .color-a{
+        color: #d41c5c;
+        cursor: pointer;
+    }
+    .color-a:hover, .color-a:focus {
+    color: #d41c5c;
+    text-decoration: none;
+    }
+    .app-login-heading {
+    color: #333333;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    }
+    .app-login-heading1{
+    color: #333333;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    margin-top: 40px;
+    }
+    .app-mob-head{
+        float: right;
+        /*width: 50%;*/
+        text-align: right;
+        cursor: pointer;
+        color: #999;
+        padding-bottom: 10px;
+    }
+    .js-app-mob-head{
+        border-bottom: 2px solid #d41c5c;
+        color: #333;
+    }
+    .app-mob-email-head{
+        width: 100%;
+        display: table;
+        margin-top: 20px;
+    }
+    .app-email-head{
+        /*width: 50%;*/
+        float: left;
+        cursor: pointer;
+        color: #999;
+        padding-bottom: 10px;
+    }
+    .js-app-email-head{
+        border-bottom: 2px solid #d41c5c;
+        color: #333;
+    }
+    .login-hr{
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .emial-mrg-top{
+        margin-top: 21px;
+    }
+    .phone-no-div{
+        position: relative;
+        margin-bottom: 21px;
+        display: none;
+    }
+    #phone-number {
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 0;
+    margin-left: 15%;
+    width: 85%;
+    }
+    .login-phone-no-code{
+        border-color: #ccc -moz-use-text-color #ccc #ccc;
+        border-radius: 5px 0 0 5px;
+        border-style: solid none solid solid;
+        border-width: 1px medium 1px 1px;
+        height: 40px;
+        width: 100%;
+        padding: 9px 12px;
+    }
+    .mobile-no-start-code {
+        background-color: #fff;
+        border: medium none;
+        color: #555;
+        display: block;
+        font-size: 14px;
+        height: 40px;
+        line-height: 1.42857;
+        position: absolute;
+        width: 15%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-left:1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+    }
+    .app-login-heading-reset,.js-send,.radio-btn,
+    .app-login-heading-verify,.app-login-heading1,
+    .otp-resend,.otp-number,.app-choose-psw,.choose-psd-form{
+        display: none;
+    }
+    .radio-btn{
+        margin-top: 40px;
+    }
+    .otp-input > input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #eee;
+    border-color: -moz-use-text-color -moz-use-text-color #999;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    padding: 0 12px;
+    width: 33px;
+    }
+    .otp-input > input  {
+        margin-right: 10px;
+    }
+    .otp-pending{
+        float: right;
+        background-color: #cbcbcb;
+    }
+    .otp-number {
+        margin-bottom: 45px;
+        margin-top: 30px;
+    }
+    input[type="radio"] {
+      border: 0; 
+      clip: rect(0 0 0 0); 
+      height: 1px;
+      margin: -1px; 
+      overflow: hidden; 
+      padding: 0; 
+      position: absolute; 
+      width: 1px;
+    }
+    input[type="radio"] + label span {
+      display: block;
+    }
+    input[type="radio"] + label span:before {
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      vertical-align: -0.25em;
+      border-radius: 1em;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 2px #683091;
+      margin-right: 10px;
+    }
+    input[type="radio"]:checked + label span:before {
+      background: #683091;
+      box-shadow: 0 0 0 2px #683091;
+    }
+    .radio-btn span {
+        color: #a0a0a0;
+        font-family: "OpenSans-Light";
+        font-size: 14px;
+    }
+    .psd-limit{
+        color: #d41c5c;
+        font-family: "OpenSans-Light";
+        font-size: 12px;
+        float: right;
+    }
+    .psw-mar-top{
+        margin-top: 30px;
+        margin-bottom: 21px;
+    }
+    .app-choose-psw{
+        margin-bottom: 40px;
+    }
+    .in{
+        color: #d41c5c;
+    }
+    .lb-mrg-btm{
+        margin-bottom: 27px;
+    }
+    @media screen and (max-width:420px){
+        .app-log-div {
+            width:100%;
+        }
+        /* .app-div {
+            width: 100%;
+         }*/
+        .otp-input > input {
+            margin-right: 5px;
+        }
+    }
+
+
+    /*patient list starts*/
+    .navbar-top-fixed-banner {
+        background-color: transparent;
+        background-image: url("../img/top_banner.png");
+        background-position: 50% top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: medium none;
+        width: 100%;
+    }
+    .tablerow1,.tablerow2{
+        display: table-row;
+        width: 50%;
+    }
+    .cell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .marketing-background-logo {
+        height: 28px;
+        width: 137px;
+        margin-left: 14px;
+        margin-right: 22px;
+    }
+    #headtop {
+        margin: 0 auto;
+        max-width: 1170px;
+    }
+    .table {
+        margin: 24px 0;
+    }
+    .marketing-background-cell-1 a {
+        color: #ffffff;
+        font-family: "Omnes-Regular-webfont";
+        font-size: 15px;
+        margin-right: 22px;
+    }
+    .cell.marketing-background-cell-1 > a{
+        text-decoration: none;
+    }
+    .pl-btn-default{
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    .pl-btn-default:hover,.pl-btn-default:focus,.pl-btn-default:active{
+        background-color: transparent;
+        color: white;
+        border: none; 
+    }
+    .pl-btn-default.active.focus, .pl-btn-default.active:focus, .pl-btn-default.active:hover,
+     .pl-btn-default.focus:active, .pl-btn-default:active:focus, .pl-btn-default:active:hover, .open >
+     .dropdown-toggle.pl-btn-default.focus, .open > .dropdown-toggle.pl-btn-default:focus,
+      .open > .dropdown-toggle.pl-btn-default:hover{
+        background-color: transparent;
+        color: white;
+        border: none; 
+     }
+    .pl-dropdown{
+        margin: 0 25%;
+    }
+    .marketing-background-cell-1 img{
+        margin-right: 22px;
+    }
+
+      /*search button strats*/
+
+    .search {
+      position: relative;
+      color: #aaa;
+      font-size: 16px;
+    }
+
+    .search input {
+        width: 60%;
+      height: 32px;
+      background: #fff;
+      border: 1px solid #d41c5c;
+    }
+
+    .search input { text-indent: 32px;}
+    .search .fa-search { 
+      position: absolute;
+      top: 8px;
+      left: 10px;
+    }
+    .search-div{
+        margin: 150px auto 0;
+        width: 60%;
+
+    }
+    .login-span{
+        width: 20%;
+    }
+    .login-span{
+        margin-left: 3%;
+    }
+    .mar-login-btn{
+        margin-left: 3%; 
+    }
+    .row-class{
+        margin: 0px;
+        border: 1px solid #dddddd;
+    }
+    .profile-img{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .profile-container{
+        margin-top: 50px;
+    }
+    .profile-detail{
+        padding: 0px;
+    }
+    .pl-table {
+    display:table;
+    width:100%;
+    height:100%;
+    text-align: right;
+    padding-top: 10px;
+}
+.pl-cell {
+    display:table-cell;
+    width:33.33%;
+    padding-bottom: 20px;
+}
+.table-row {
+    display:table-row;
+}
+.age-detail,.phone-detail{
+    color:#545454; 
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+
+}
+.row-pad-btm{
+    padding-top: 10px;
+}
+.full-name{
+    font-family: "OpenSans-SemiBold";
+    font-size: 18px;
+    color: #545454;
+}
+/*.Vitals-img{
+    background-image: url("../img/Vitals-img.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}
+.Medical{
+    background-image: url("../img/Medical.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}
+.Documents-img{
+    background-image: url("../img/Documents-img.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}*/
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+
+.sprite-Calender-img {
+    width: 29px;
+    height: 34px;
+    background-position: -5px -5px;
+}
+
+.sprite-Documents-img {
+    width: 30px;
+    height: 34px;
+    background-position: -44px -5px;
+    margin-left: 27px;
+}
+
+.sprite-Medical {
+    width: 27px;
+    height: 35px;
+    background-position: -5px -49px;
+}
+
+.sprite-Push-notification {
+    width: 38px;
+    height: 32px;
+    background-position: -42px -49px;
+}
+
+.sprite-Sms-magenta {
+    width: 33px;
+    height: 27px;
+    background-position: -84px -5px;
+}
+
+.sprite-Vitals-img {
+    width: 30px;
+    height: 35px;
+    background-position: -90px -42px;
+}
+
+.sprite-email-yellow {
+    width: 33px;
+    height: 23px;
+    background-position: -90px -87px;
+}
+.cell.c-cell {
+    width: 27%;
+}
+
+
+.padding-top-30{
+    padding-top: 30px;
+}
+.alphabet{
+    padding-left: 0;
+    margin-top: 15px;
+}
+.alphabet li{
+    float: left;
+    padding: 0 8px;
+    list-style: none;
+}
+.alphabet li a{
+    color: #aaa;
+}
+.alphabet li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.srchActive{
+    background-color: #d41c5c;
+    border-radius: 4px;
+}
+.alphabet .srchActive a{
+    color: #fff;
+}
+        /*search button ends*/
+   /* patient list ends*/
