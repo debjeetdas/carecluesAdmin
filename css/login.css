@@ -524,6 +524,7 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
     }
     .profile-img{
         width: 100%;
+        margin-top: 15px;
     }
     .profile-container{
         margin-top: 50px;
@@ -541,20 +542,92 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
 .pl-cell {
     display:table-cell;
     width:33.33%;
+    padding-bottom: 20px;
 }
 .table-row {
     display:table-row;
 }
-.age-detail{
-    color:#848484; 
-}
-.phone-detail{
-    color:#545454;
+.age-detail,.phone-detail{
+    color:#545454; 
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+
 }
 .row-pad-btm{
     padding-top: 10px;
 }
+.full-name{
+    font-family: "OpenSans-SemiBold";
+    font-size: 18px;
+    color: #545454;
+}
+/*.Vitals-img{
+    background-image: url("../img/Vitals-img.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}
+.Medical{
+    background-image: url("../img/Medical.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}
+.Documents-img{
+    background-image: url("../img/Documents-img.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+}*/
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
 
+.sprite-Calender-img {
+    width: 29px;
+    height: 34px;
+    background-position: -5px -5px;
+}
+
+.sprite-Documents-img {
+    width: 30px;
+    height: 34px;
+    background-position: -44px -5px;
+    margin-left: 27px;
+}
+
+.sprite-Medical {
+    width: 27px;
+    height: 35px;
+    background-position: -5px -49px;
+}
+
+.sprite-Push-notification {
+    width: 38px;
+    height: 32px;
+    background-position: -42px -49px;
+}
+
+.sprite-Sms-magenta {
+    width: 33px;
+    height: 27px;
+    background-position: -84px -5px;
+}
+
+.sprite-Vitals-img {
+    width: 30px;
+    height: 35px;
+    background-position: -90px -42px;
+}
+
+.sprite-email-yellow {
+    width: 33px;
+    height: 23px;
+    background-position: -90px -87px;
+}
+.cell.c-cell {
+    width: 27%;
+}
 
         /*search button ends*/
    /* patient list ends*/
