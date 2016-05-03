@@ -629,5 +629,32 @@ src: url(../fonts/Roboto-ThinItalic.ttf);
     width: 27%;
 }
 
+
+.padding-top-30{
+    padding-top: 30px;
+}
+.alphabet{
+    padding-left: 0;
+    margin-top: 15px;
+}
+.alphabet li{
+    float: left;
+    padding: 0 8px;
+    list-style: none;
+}
+.alphabet li a{
+    color: #aaa;
+}
+.alphabet li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.srchActive{
+    background-color: #d41c5c;
+    border-radius: 4px;
+}
+.alphabet .srchActive a{
+    color: #fff;
+}
         /*search button ends*/
    /* patient list ends*/

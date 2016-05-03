@@ -57,89 +57,298 @@
                     </div>
             </nav>
             <div class="search-div">
-	            <div class="search">
-					  <span class="fa fa-search"></span>
-					  <input placeholder="Search Patient by name or phonenumber">
-					  <span class="login-span">or
-					  <button type="submit" class="login-btn mar-login-btn">ADD PATIENTS</button></span>
-				</div>
-
+                <div class="search">
+                      <span class="fa fa-search"></span>
+                      <input placeholder="Search Patient by name or phonenumber" class="search-criteria">
+                      <span class="login-span">or
+                      <button type="submit" class="login-btn mar-login-btn">ADD PATIENTS</button></span>
+                </div>
+                <ul class="alphabet">
+                    <li class="srchActive"><a>A</a></li>
+                    <li><a>B</a></li>
+                    <li><a>C</a></li>
+                    <li><a>D</a></li>
+                    <li><a>E</a></li>
+                    <li><a>F</a></li>
+                    <li><a>G</a></li>
+                    <li><a>H</a></li>
+                    <li><a>I</a></li>
+                    <li><a>J</a></li>
+                    <li><a>K</a></li>
+                    <li><a>L</a></li>
+                    <li><a>M</a></li>
+                    <li><a>N</a></li>
+                    <li><a>O</a></li>
+                    <li><a>P</a></li>
+                    <li><a>Q</a></li>
+                    <li><a>R</a></li>
+                    <li><a>S</a></li>
+                    <li><a>T</a></li>
+                    <li><a>U</a></li>
+                    <li><a>V</a></li>
+                    <li><a>W</a></li>
+                    <li><a>X</a></li>
+                    <li><a>Y</a></li>
+                    <li><a>Z</a></li>
+                    <li><a>ALL</a></li>
+                </ul>
             </div>
             <div class="container profile-container">
             	<div class="row">
-            		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            			<div class="row row-class">
-            				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            					<div class="row row-pad-btm">
-            						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            							<img src="img/user-no-image.png" class="profile-img">
-            						</div>
-            						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
-            							<h4 class="full-name">Anilava Majumder</h4>
-            							<h5 class="age-detail">43, Male</h5>
-            							<h5 class="phone-detail">9030297858</h5>
-            						</div>
-            					</div>
-            				</div>
-            				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-		            					<div class='pl-table'>
-										    <div class='row table-row'>
-										        <div class='pl-table'>           
-										          <div class='row table-row'>
-										              <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
-										              <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
-										              <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
-										          </div>
-										          <div class='row table-row'>
-										              <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
-										              <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
-										              <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
-										          </div>
-										        </div>
-										        <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
-										    </div>
-										</div>
-            				</div>
-            			</div>            			
-            		</div>
-            		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            			<div class="row row-class">
-            				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            					<div class="row">
-            						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            							<img src="img/social.png" class="profile-img">
-            						</div>
-            						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
-            							<h4>Anilava Majumder</h4>
-            							<h5 class="age-detail">43, Male</h5>
-            							<h5 class="phone-detail">9030297858</h5>
-            						</div>
-            					</div>
-            				</div>
-            				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-		            					<div class='pl-table'>
-										    <div class='row table-row'>
-										        <div class='pl-table'>           
-										          <div class='row table-row'>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										          </div>
-										          <div class='row table-row'>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										              <div class='pl-cell'><img src="img/business.png"></div>
-										          </div>
-										        </div>
-										        <div class='cell'><img src="img/business.png"></div>
-										    </div>
-										</div>
-            				</div>
-            			</div>            			
-            		</div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Anilava Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">8830297858</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Anilava Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">7030297858</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Anilava Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">8030297858</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Debjeet Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">9030297558</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Sunil Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">9030297854</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-top-30 doc-det">
+                        <div class="row row-class">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="row row-pad-btm">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <img src="img/user-no-image.png" class="profile-img">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 profile-detail">
+                                        <h4 class="full-name nameSearch">Rakesh Majumder</h4>
+                                        <h5 class="age-detail">43, Male</h5>
+                                        <h5 class="phone-detail">9030297858</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class='pl-table'>
+                                            <div class='row table-row'>
+                                                <div class='pl-table'>           
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell Vitals-img'><i class="sprite sprite-Vitals-img"></i></div>
+                                                      <div class='pl-cell Medical'><i class="sprite sprite-Medical"></i></div>
+                                                      <div class='pl-cell Documents-img'><i class="sprite sprite-Documents-img"></i></div>
+                                                  </div>
+                                                  <div class='row table-row'>
+                                                      <div class='pl-cell'><i class="sprite sprite-Sms-magenta"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-email-yellow"></i></div>
+                                                      <div class='pl-cell'><i class="sprite sprite-Push-notification"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div class='cell c-cell'><i class="sprite sprite-Calender-img"></i></div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>                      
+                    </div>
             	</div>
             </div>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   				<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var triggers = $('ul.alphabet li a');
+                // var filters = $('ul.medical_dictionary li strong');
+                var filters = $('.nameSearch');
+                triggers.click(function() {
+                    var takeLetter = $(this).text();
+                    var found = false;
+                    filters.closest('.doc-det').hide();
+                    if($(this).parent('li').siblings().hasClass('srchActive')){
+                        $(this).parent('li').siblings().removeClass('srchActive');
+                        $(this).parent('li').addClass('srchActive');
+                    }
+                    else{
+                        $(this).parent('li').addClass('srchActive');
+                    }
+                    filters.each(function(i) {
+                        var compareFirstLetter = $(this).text().substr(0,1);
+                        if ( compareFirstLetter ==  takeLetter ) {
+                            $(this).closest('.doc-det').fadeIn(222);
+                            found = true;
+                        }
+                    });
+                    if(takeLetter.toLowerCase() === "all"){
+                        filters.closest('.doc-det').show();
+                    }
+                    if (!found) {console.log('There is no result.');}
+                });
+                $(".search-criteria").keyup(function () {
+                    var filter = $(this).val();
+                    filters.each(function () {
+                        if ($(this).parent('.profile-detail').text().search(new RegExp(filter, "i")) < 0) {
+                            $(this).closest('.doc-det').hide();
+                        } else {
+                            $(this).closest('.doc-det').show();
+                        }
+                    });
+                });
+                $('.alphabet li:nth-child(1) a').trigger('click');
+            });
+        </script>
  	</body>
 </html> 	
